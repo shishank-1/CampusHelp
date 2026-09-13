@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+
+# Local Python environments
+.llm/
+.venv/
+venv/
+env/
+
+# Generated data and local credentials
+data/processed/
+data/users.json
+vectorstore/
+
+# Python cache and tooling files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
