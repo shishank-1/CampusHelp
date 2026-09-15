@@ -2,11 +2,11 @@
 # Install with: pip install -r requirements.txt
 
 # --- Web UI ---
-streamlit==1.38.0
+streamlit>=1.63.0
 
 # --- Document parsing (ingest.py) ---
-pypdf==4.3.1
-python-docx==1.1.2
+pypdf>=4.3.1
+python-docx>=1.1.2
 
 # --- Embeddings & Vector store (embed.py, retrieve.py) ---
 sentence-transformers>=6.0.1
@@ -14,4 +14,4 @@ chromadb>=1.5.9
 
 # --- LLM (generate.py) ---
 google-genai
-python-dotenv==1.0.1
+python-dotenv>=1.0.1
